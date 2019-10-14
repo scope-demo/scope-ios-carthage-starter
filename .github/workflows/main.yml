@@ -16,7 +16,7 @@ jobs:
       - name: Build and test
         run: |
           carthage update --platform iOS
-          xcodebuild test -scheme scope-ios-carthage-starter -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.0' 
+          xcodebuild test -scheme scope-ios-carthage-starter -destination 'platform=iOS Simulator,name=iPhone 11' 
         env:
           SCOPE_APIKEY: ${{secrets.SCOPE_APIKEY}}
 

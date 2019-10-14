@@ -16,8 +16,6 @@
 		663285C4233B555600AA91A2 /* scope_ios_carthage_starterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663285C3233B555600AA91A2 /* scope_ios_carthage_starterTests.swift */; };
 		663285CF233B555600AA91A2 /* scope_ios_carthage_starterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663285CE233B555600AA91A2 /* scope_ios_carthage_starterUITests.swift */; };
 		663285DF233B559B00AA91A2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663285DE233B559B00AA91A2 /* Networking.swift */; };
-		663285E0233B559B00AA91A2 /* AlamofireTracing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663285DD233B559B00AA91A2 /* AlamofireTracing.swift */; };
-		663285E1233B559B00AA91A2 /* Geolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663285DC233B559B00AA91A2 /* Geolocation.swift */; };
 		663285E6233B588E00AA91A2 /* ScopeAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663285E4233B588E00AA91A2 /* ScopeAgent.framework */; };
 		663285E7233B588E00AA91A2 /* ScopeAgent.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 663285E4233B588E00AA91A2 /* ScopeAgent.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		663285E8233B588E00AA91A2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663285E5233B588E00AA91A2 /* Alamofire.framework */; };
@@ -71,8 +69,6 @@
 		663285CA233B555600AA91A2 /* scope-ios-carthage-starterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scope-ios-carthage-starterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		663285CE233B555600AA91A2 /* scope_ios_carthage_starterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scope_ios_carthage_starterUITests.swift; sourceTree = "<group>"; };
 		663285D0233B555600AA91A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		663285DC233B559B00AA91A2 /* Geolocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geolocation.swift; sourceTree = "<group>"; };
-		663285DD233B559B00AA91A2 /* AlamofireTracing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireTracing.swift; sourceTree = "<group>"; };
 		663285DE233B559B00AA91A2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		663285E4233B588E00AA91A2 /* ScopeAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScopeAgent.framework; path = Carthage/Build/iOS/ScopeAgent.framework; sourceTree = "<group>"; };
 		663285E5233B588E00AA91A2 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
@@ -129,8 +125,6 @@
 		663285AB233B555500AA91A2 /* scope-ios-carthage-starter */ = {
 			isa = PBXGroup;
 			children = (
-				663285DD233B559B00AA91A2 /* AlamofireTracing.swift */,
-				663285DC233B559B00AA91A2 /* Geolocation.swift */,
 				663285DE233B559B00AA91A2 /* Networking.swift */,
 				663285AC233B555500AA91A2 /* AppDelegate.swift */,
 				663285AE233B555500AA91A2 /* SceneDelegate.swift */,
@@ -324,11 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663285E0233B559B00AA91A2 /* AlamofireTracing.swift in Sources */,
 				663285B1233B555500AA91A2 /* ViewController.swift in Sources */,
 				663285AD233B555500AA91A2 /* AppDelegate.swift in Sources */,
 				663285AF233B555500AA91A2 /* SceneDelegate.swift in Sources */,
-				663285E1233B559B00AA91A2 /* Geolocation.swift in Sources */,
 				663285DF233B559B00AA91A2 /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,2 +1,2 @@
-binary "https://releases.undefinedlabs.com/scope/agents/ios/ScopeAgent.json" "0.2.6"
+binary "https://releases.undefinedlabs.com/scope/agents/ios/ScopeAgent.json" "0.3.0"
 github "Alamofire/Alamofire" "4.9.0"

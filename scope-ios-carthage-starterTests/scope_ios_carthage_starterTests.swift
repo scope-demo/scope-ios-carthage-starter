@@ -65,46 +65,6 @@ class scope_ios_carthage_starterTests: XCTestCase {
 
     /**
      * SCOPE
-     * This test shows integration of application using Scope with service using Scope, so we can correlate request with server executions.
-     * We are using Alamofire framework for networking. Check getLocationWithAlamofire in Geolocation.swift for example implementation
-     */
-    func testServicesIntegrationWithAlamofire() {
-        let expec = expectation(description: "testServicesIntegrationWithAlamofire")
-
-        Geolocation.getLocationWithAlamofire(identifier: Identifiers.good_identifier) { location in
-            XCTAssert(location != nil)
-            expec.fulfill()
-        }
-
-        waitForExpectations(timeout: 30) { error in
-            if let error = error {
-                print("Error: \(error.localizedDescription)")
-            }
-        }
-    }
-
-    /**
-     * SCOPE
-     * This test shows integration of application using Scope with service using Scope, so we can correlate request with server executions.
-     * We are using URLSession framework for networking. Check getLocationWithURLSession in Geolocation.swift for example implementation
-     */
-    func testServicesIntegrationWithURLSession() {
-        let expec = expectation(description: "testServicesIntegrationWithURLSession")
-
-        Geolocation.getLocationWithURLSession(identifier: Identifiers.good_identifier) { location in
-            XCTAssert(location != nil)
-            expec.fulfill()
-        }
-
-        waitForExpectations(timeout: 30) { error in
-            if let error = error {
-                print("Error: \(error.localizedDescription)")
-            }
-        }
-    }
-
-    /**
-     * SCOPE
      * This test shows how NSLog, os_log or print messages shows in Scope results without code changes
      */
     func testStandardLogging() {
