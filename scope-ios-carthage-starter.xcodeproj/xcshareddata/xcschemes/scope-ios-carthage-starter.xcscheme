@@ -72,6 +72,11 @@
             value = "$(GITHUB_REPOSITORY)"
             isEnabled = "YES">
          </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SCOPE_INSTRUMENTATION_HTTP_PAYLOADS"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
       </EnvironmentVariables>
       <Testables>
          <TestableReference
