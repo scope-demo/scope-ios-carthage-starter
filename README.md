@@ -1,5 +1,5 @@
 # Scope: Getting Started
-A starter iOS/carthage project instrumented with [Scope](https://scope.undefinedlabs.com) through [GitHub Actions](https://github.com/features/actions).
+A starter iOS/carthage project instrumented with [Scope](https://scope.undefinedlabs.com). It uses standard [GitHub Actions](https://github.com/features/actions) fur building and testing.
 
 This starter project is based on:
 - [Xcode](https://developer.apple.com/xcode/)
@@ -9,7 +9,7 @@ This starter project is based on:
 
 The project needs to add a new `ScopeAgent` dependency to the Cartfile, and run the tests
 
-Finally, the build and test action has been configured in the GitHub Workflow `main.yml` file:
+Finally, the build and test action has been configured in the GitHub Workflow `main.yml` file setting the user API key as a environment variable:
 
 ```yaml
 name: Scope Testing
