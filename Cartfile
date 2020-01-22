@@ -1,2 +1,2 @@
 github "Alamofire/Alamofire" ~> 4.8
-binary "https://releases.undefinedlabs.com/scope/agents/ios/ScopeAgent.json"
+binary "https://releases.undefinedlabs.com/scope/agents/carthage/ScopeAgent.json"
